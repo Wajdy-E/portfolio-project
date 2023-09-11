@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="icon" href="./Assets/favicon.png" type="image/png">
+    <title>Personal Portfolio | Wajdy Elsobky</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark .bg-transparent" aria-label="Ninth navbar example">
+        <div class="container-xl">
+          <a class="navbar-brand me-lg-5" style="font-size: 34px;" href="#">Wajdy.</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="navbar-collapse collapse" id="navbarsExample07XL" style="">
+            <ul style="font-size: 18px;" class="ms-auto navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link mx-lg-5"  href="#about-me">About</a>
+            </li>
+              <li class="nav-item mx-lg-5">
+                <a class="nav-link" href="#technical-skills">Skills</a>
+              </li>
+              <li class="nav-item mx-lg-5">
+                <a class="nav-link" href="#shopify-projects">Projects</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <header class="hero-container">
+        <div class="content">
+            <span class="blur"></span>
+            <span class="blur"></span>
+            <h4>Launching businesses since 2019.</h4>
+            <H1>Hi, i'm <span>Wajdy</span>. <br> A Frontend Web Developer.</H1>
+            <p> I'm currently focused on frontend development, but I hope to expand my skills into Full Stack Development by <strong>May 2024.</strong>
+                My expertise revolves around crafting engaging web experiences using HTML, CSS, and JavaScript and <a href="#technical-skills">more.</a> </p>
+
+            <button id='projects' style="
+            width: 90%;" class="btn btn-primary">View my projects</button>
+        </div>
+        <div class="image">
+            <img src="./Assets/header.png" alt="hero image">
+        </div>
+    </header>
+
+    <section id="about-me">
+
+        <img id="profile-image" src="./Assets/Wajdy.png" alt="A photo of Wajdy">
+        <div id="who-am-i">
+            <h2>About Me</h2>
+            <br>
+            <p>
+                I'm a second-year Computer Engineering student at the University of Ottawa, deeply passionate about front-end development. 
+                My journey into web development began during my teenage years when I initially used Shopify's page builders to create websites. However, 
+                my desire to take control and develop sites from scratch led me to pursue a path as a full-stack developer. <br> <br> Over time, I honed my web design and development skills, creating online stores for personal projects and clients. 
+                    This journey eventually led me to freelance work on platforms like Facebook, Instagram, TikTok, and Fiverr, where I've earned a five-star 
+                    reputation as a website designer.
+            </p>
+            <div id="technical-skills">
+                <div class="skill"> <img class="flex-item" src="./Assets/html5.png" alt="HTML"/> </div>
+                <div class="skill"> <img class="flex-item" src="./Assets/css.png" alt="CSS"/> </div>
+                <div class="skill"> <img class="flex-item" src="./Assets/javascript.png" alt="JavaScript"/> </div>
+                <div class="skill"><img class="flex-item" src="./Assets/bootstrap.png" alt="bootstrap framework"/> </div>
+                <div class="skill"> <img class="flex-item" src="./Assets/react.png" alt="React JS"/> </div>
+                <div class="skill"> <img class="flex-item" src="./Assets/Java.png" alt="Java"/> </div>
+                <div class="skill"><img class="flex-item" src="./Assets/python.png" alt="Python"/> </div>
+                <div class="skill"> <img class="flex-item" src="./Assets/shopfiy.png" alt="Shopify"/> </div>
+             </div>
+             <p><span style="font-size: 1.1rem;"><strong>Fun fact about me:</strong></span> I'm a moderator of a Shopify help group for beginners with 60k+ members. Everyday I dedicate some time to lend a helping hand to those
+              in need of it free of charge.
+             </p>
+        </div>
+    </section>
+
+    <section id="shopify-projects">
+        <h2>Shopify Website Design Projects</h2>
+        <span class="blur"></span>
+        <span class="blur"></span>
+        <div class='s-projects'>
+           <div class="project1" > <img class="preview" src="./Assets/myshoecharms.png" alt="Description of the image"/>    
+            <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    Project #1 Review
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
+                <div class="accordion-body">
+                  <p>Introducing MyShoeCharms. After giving Hussam a public review of his shop (before the re-design), he reached out to me thanking me. Few weeks later, he reaches out 
+                    asking for a website re-design so I assisted him. He was transferring from Etsy to Shopify so he found himself struggling to navigate through Shopify. We encountered quite a few bugs in the theme
+                    and unfortunately support was of no help so I messed around with the code and eventually got everything working the way it should be. I was very thankful for his generous tip because he saw
+                    the amount of time I was putting into debugging the theme. 
+                    </p> <strong>Customer review</strong>
+                    <img src="./Assets/msc.jpeg" alt="project 1 review "/>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+          <a href="https://www.myshoecharms.com" target='_blank'> <svg  class="link-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+            <path d="M13.0605 8.11073L14.4747 9.52494C17.2084 12.2586 17.2084 16.6908 14.4747 19.4244L14.1211 19.778C11.3875 22.5117 6.95531 22.5117 4.22164 
+            19.778C1.48797 17.0443 1.48797 12.6122 4.22164 9.87849L5.63585 11.2927C3.68323 13.2453 3.68323 16.4112 5.63585 18.3638C7.58847 20.3164 10.7543 
+            20.3164 12.7069 18.3638L13.0605 18.0102C15.0131 16.0576 15.0131 12.8918 13.0605 10.9392L11.6463 9.52494L13.0605 8.11073ZM19.778 14.1211L18.3638 
+            12.7069C20.3164 10.7543 20.3164 7.58847 18.3638 5.63585C16.4112 3.68323 13.2453 3.68323 11.2927 5.63585L10.9392 5.98941C8.98653 7.94203 8.98653 
+            11.1079 10.9392 13.0605L12.3534 14.4747L10.9392 15.8889L9.52494 14.4747C6.79127 11.741 6.79127 7.30886 9.52494 4.57519L9.87849 4.22164C12.6122 
+            1.48797 17.0443 1.48797 19.778 4.22164C22.5117 6.95531 22.5117 11.3875 19.778 14.1211Z" fill="rgba(29,78,216,1)"></path></svg></a></i>  
+          </div>
+           <div class="project2"> <img class="preview" src="./Assets/yourvinylsource.png" alt="Description of the image"/>    <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Project #2 Review
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
+                <div class="accordion-body">
+                  <p>Introducing YourVinylSource. Once of the most succesful stores i've built powered by a lovely lady named Renatta. This store is also the largest tip i've ever received ($200). I met Renatta
+                    through the FB group. We hopped on a call, spoke about her requirements and immediately got started on her store design. To this day she continuously recommends me to her friends and reaches out for minor additions.
+                    </p> <strong>Customer review</strong>
+                    <img src="./Assets/renatta1.jpeg" alt="project 2 review 1"/><img src="./Assets/renatta2.jpeg" alt="project 2 review 2"/>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <a href="https://yourvinylsource.com/" target="_blank"> <svg class="link-icon"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+            <path d="M13.0605 8.11073L14.4747 9.52494C17.2084 12.2586 17.2084 16.6908 14.4747 19.4244L14.1211 19.778C11.3875 22.5117 6.95531 22.5117 4.22164 
+            19.778C1.48797 17.0443 1.48797 12.6122 4.22164 9.87849L5.63585 11.2927C3.68323 13.2453 3.68323 16.4112 5.63585 18.3638C7.58847 20.3164 10.7543 
+            20.3164 12.7069 18.3638L13.0605 18.0102C15.0131 16.0576 15.0131 12.8918 13.0605 10.9392L11.6463 9.52494L13.0605 8.11073ZM19.778 14.1211L18.3638 
+            12.7069C20.3164 10.7543 20.3164 7.58847 18.3638 5.63585C16.4112 3.68323 13.2453 3.68323 11.2927 5.63585L10.9392 5.98941C8.98653 7.94203 8.98653 
+            11.1079 10.9392 13.0605L12.3534 14.4747L10.9392 15.8889L9.52494 14.4747C6.79127 11.741 6.79127 7.30886 9.52494 4.57519L9.87849 4.22164C12.6122 
+            1.48797 17.0443 1.48797 19.778 4.22164C22.5117 6.95531 22.5117 11.3875 19.778 14.1211Z" fill="rgba(29,78,216,1)"></path></svg></a></i> 
+          </div>
+           <div class="project3"> <img class="preview" src="./Assets/ironthreads.png" alt="Description of the image"/>    <div class="accordion" id="accordionExample">    
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Project #3 Review
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
+                <div class="accordion-body">
+                  <p>Introducing IronThreads, one of my favourite projects. Iron Threads is a POD clothing store. In my shopify for beginners facebook group, I saw Jason leaving a post asking for web designing services and I left him a 
+                    comment letting him know he can reach out to me and he did just that. We spoke for a few days and eventually got started. This was one of my longer projects but I was very happy
+                    with the end result and so was he. To this day, he recommends everyone in the FB group to reach out to me should they need web design services.<br> <strong>Customer review</strong><p>I didn't ask for an official
+                      review so here's a few of his responses
+                    </p>
+                    <img src="./Assets/r1.jpeg" alt="project 3 review 1"/><img src="./Assets/r2.jpeg" alt="project 3 review 2"/><img src="./Assets/r3.jpeg" alt="project 3 review 3"/> 
+                    </div>
+              </div>
+            </div>
+          </div>
+          <a href="https://ironthreads.shop/?_ab=0&_fd=0&_sc=1" target="_blank"> <svg class="link-icon"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M13.0605 8.11073L14.4747 9.52494C17.2084 12.2586 17.2084 16.6908 14.4747 19.4244L14.1211 19.778C11.3875 22.5117 6.95531 22.5117 4.22164 19.778C1.48797 17.0443 1.48797 12.6122 4.22164 9.87849L5.63585 11.2927C3.68323 13.2453 3.68323 16.4112 5.63585 18.3638C7.58847 20.3164 
+            10.7543 20.3164 12.7069 18.3638L13.0605 18.0102C15.0131 16.0576 15.0131 12.8918 13.0605 10.9392L11.6463 9.52494L13.0605 8.11073ZM19.778 14.1211L18.3638 12.7069C20.3164 10.7543 20.3164 7.58847 18.3638 5.63585C16.4112 3.68323 13.2453 3.68323 11.2927 5.63585L10.9392 5.98941C8.98653 7.94203 8.98653 11.1079 10.9392 13.0605L12.3534 14.4747L10.9392 15.8889L9.52494 14.4747C6.79127 11.741 6.79127 7.30886 9.52494 4.57519L9.87849 4.22164C12.6122 1.48797 17.0443 1.48797 19.778 4.22164C22.5117 6.95531 22.5117 11.3875 19.778 14.1211Z" fill="rgba(29,78,216,1)"></path></svg></a></i> </div>
+           <div class="project4"> <img class="preview" src="./Assets/kitchenoutlet.png" alt="Description of the image"/>    <div class="accordion" id="accordionExample">    
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Project #4 Review
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
+                <div class="accordion-body">
+                  <p>Introducing Kitchen outlet. A dropshipping store full of kitchen appliances. I reached out to Muntakim (the store owner) through my instagram business page. He was 
+                    very skeptical but also very curious about dropshipping. He has never done something like this before but after speaking with him for several days, he decided
+                    he wanted to work with me so i redirected him to my Fiverr profile and began the order. He was extremely satisfied with store. <br> <strong>Customer review</strong>
+                    <img src="./Assets/muntakim.png" alt="project 4 kitchen appliance dropshipping store"/>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="https://kitchenoutlet-us.myshopify.com/" target="_blank"><svg class="link-icon"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+            <path d="M13.0605 8.11073L14.4747 9.52494C17.2084 12.2586 17.2084 16.6908 14.4747 19.4244L14.1211 19.778C11.3875 22.5117 6.95531 
+            22.5117 4.22164 19.778C1.48797 17.0443 1.48797 12.6122 4.22164 9.87849L5.63585 11.2927C3.68323 13.2453 3.68323 16.4112 5.63585 18.3638C7.58847
+             20.3164 10.7543 20.3164 12.7069 18.3638L13.0605 18.0102C15.0131 16.0576 15.0131 12.8918 13.0605 10.9392L11.6463 9.52494L13.0605 8.11073ZM19.778
+              14.1211L18.3638 12.7069C20.3164 10.7543 20.3164 7.58847 18.3638 5.63585C16.4112 3.68323 13.2453 3.68323 11.2927 5.63585L10.9392 5.98941C8.98653
+               7.94203 8.98653 11.1079 10.9392 13.0605L12.3534 14.4747L10.9392 15.8889L9.52494 14.4747C6.79127 11.741 6.79127 7.30886 9.52494 4.57519L9.87849
+                4.22164C12.6122 1.48797 17.0443 1.48797 19.778 4.22164C22.5117 6.95531 22.5117 11.3875 19.778 14.1211Z" fill="rgba(29,78,216,1)">
+              </path>
+            </svg></i></a>
+            </div>
+            <div class="project5" > <img class="preview" src="./Assets/scrubOmatic.png" alt="ScrubOmatic. A Dropshipping store selling cleaning tools"/>    
+              <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      Project #5 Review
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
+                  <div class="accordion-body">
+                    <strong>Note: this store is no longer live.</strong><br><br>
+                    <p>Introducing scrubOmatic. scrubOmatic is a 3 product branded dropshipping store that sells cleaning tools. This store was one of my longer projects as I ended up doing 
+                      a lot more than what was originally agreed upon. I was only supposed to create 1 custom made page but because I want to keep my clients satisfied I ended doing 3 custom made pages. Unfortunately, she had to shut down
+                      her store as she is a single mom of 3 kids and couldn't keep up with everything but working with her was a pleasure nontheless.</p><br> <strong>Customer review</strong> <br> <img src="./Assets/scrubreview.png" alt="project 5 customer review"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+
+            <div class="project6" > <img class="preview" src="./Assets/luxwomens.png" alt="LuxuryDirect. A Dropshipping store selling womens clothing"/>    
+              <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                      Project #6 Review
+                  </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
+                  <div class="accordion-body">
+                    <strong>Note: this store is no longer live.</strong><br><br>
+                    <p>Introudcing LuxuryDirect but for women. This is a dropshipping store that I built for a client on fiverr. They reached out to me because their
+                      previous store designer ripped them off. The store owner wanted a clothing store that seperates men and womens clothing in an organized fashion and i did just that 
+                    by using custom made sections.</p><br><strong>Customer Review</strong>
+                    <img src="./Assets/luxdirect.png" alt="project 6 customer review"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+
+            <div class="project7" > <img class="preview" src="./Assets/luxmens.png" alt="LuxuryDirect. A Dropshipping store selling mens clothing"/>    
+              <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                      Project #7 Review
+                  </button>
+                </h2>
+                <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
+                  <div class="accordion-body">
+                    <strong>Note: this store is no longer live.</strong><br><br>
+                    <p>Introudcing LuxuryDirect but for men. This is a dropshipping store that I built for a client on fiverr. They reached out to me because their
+                      previous store designer ripped them off. The store owner wanted a clothing store that seperates men and womens clothing in an organized fashion and i did just that 
+                    by using custom made sections.</p><br><strong>Customer Review</strong>
+                    <img src="./Assets/luxdirect.png" alt="project 6 customer review"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="accordion-section">
+      <div class="accordion" id="accordionExample1">
+          <div class="accordion-item">
+              <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                      Project #1 Review
+                  </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample1">
+                  <div class="accordion-body">
+                      <p>Introducing MyShoeCharms. After giving Hussam a public review of his shop (before the re-design), he reached out to me thanking me. Few weeks later, he reaches out 
+                      asking for a website re-design so I assisted him. He was transferring from Etsy to Shopify so he found himself struggling to navigate through Shopify. We encountered quite a few bugs in the theme
+                      and unfortunately support was of no help so I messed around with the code and eventually got everything working the way it should be. I was very thankful for his generous tip because he saw
+                      the amount of time I was putting into debugging the theme.</p>
+                      <p><strong>Customer review:</strong></p>
+                      <img src="./Assets/msc.jpeg" alt="project 1 review" />
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="accordion" id="accordionExample2">
+          <div class="accordion-item">
+              <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Project #2 Review
+                  </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample2">
+                  <div class="accordion-body">
+                      <p>Introducing YourVinylSource. Once of the most successful stores I've built powered by a lovely lady named Renatta. This store is also the largest tip I've ever received ($200). I met Renatta
+                      through the FB group. We hopped on a call, spoke about her requirements and immediately got started on her store design. To this day she continuously recommends me to her friends and reaches out for minor additions.</p>
+                      <p><strong>Customer review:</strong></p>
+                      <img src="./Assets/renatta1.jpeg" alt="project 2 review 1" />
+                      <img src="./Assets/renatta2.jpeg" alt="project 2 review 2" />
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="accordion" id="accordionExample3">
+          <div class="accordion-item">
+              <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Project #3 Review
+                  </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample3">
+                  <div class="accordion-body">
+                      <p>Introducing IronThreads, one of my favourite projects. Iron Threads is a POD clothing store. In my shopify for beginners facebook group, I saw Jason leaving a post asking for web designing services and I left him a 
+                      comment letting him know he can reach out to me and he did just that. We spoke for a few days and eventually got started. This was one of my longer projects but I was very happy
+                      with the end result and so was he. To this day, he recommends everyone in the FB group to reach out to me should they need web design services.</p>
+                      <p><strong>Customer review:</strong></p>
+                      <img src="./Assets/r1.jpeg" alt="project 3 review 1" />
+                      <img src="./Assets/r2.jpeg" alt="project 3 review 2" />
+                      <img src="./Assets/r3.jpeg" alt="project 3 review 3" />
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="accordion" id="accordionExample4">
+          <div class="accordion-item">
+              <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      Project #4 Review
+                  </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample4">
+                  <div class="accordion-body">
+                    <p>Introducing Kitchen outlet. A dropshipping store full of kitchen appliances. I reached out to Muntakim (the store owner) through my instagram business page. He was 
+                      very skeptical but also very curious about dropshipping. He has never done something like this before but after speaking with him for several days, he decided
+                      he wanted to work with me so i redirected him to my Fiverr profile and began the order. He was extremely satisfied with store. <br> <strong>Customer review</strong>
+                      <img src="./Assets/muntakim.png" alt="project 4 review 1" />
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="accordion" id="accordionExample5">
+          <div class="accordion-item">
+              <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      Project #5 Review
+                  </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample5">
+                  <div class="accordion-body">
+                    <strong>Note: this store is no longer live.</strong><br><br>
+                    <p>Introducing scrubOmatic. scrubOmatic is a 3 product branded dropshipping store that sells cleaning tools. This store was one of my longer projects as I ended up doing 
+                      a lot more than what was originally agreed upon. I was only supposed to create 1 custom made page but because I want to keep my clients satisfied I ended doing 3 custom made pages. Unfortunately, she had to shut down
+                      her store as she is a single mom of 3 kids and couldn't keep up with everything but working with her was a pleasure nontheless.</p><br> <strong>Customer review</strong> <br> 
+                      <img src="./Assets/scrubreview.png" alt="project 5 customer review"/>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="accordion" id="accordionExample6">
+          <div class="accordion-item">
+              <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                      Project #6 Review
+                  </button>
+              </h2>
+              <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample6">
+                  <div class="accordion-body">
+                    <strong>Note: this store is no longer live.</strong><br><br>
+                    <p>Introudcing LuxuryDirect but for women. This is a dropshipping store that I built for a client on fiverr. They reached out to me because their
+                      previous store designer ripped them off. The store owner wanted a clothing store that seperates men and womens clothing in an organized fashion and i did just that 
+                    by using custom made sections.</p><br><strong>Customer Review</strong>
+                    <img src="./Assets/luxdirect.png" alt="project 6 customer review"/>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="accordion" id="accordionExample7">
+          <div class="accordion-item">
+              <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                      Project #7 Review
+                  </button>
+              </h2>
+              <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample7">
+                  <div class="accordion-body">
+                    <strong>Note: this store is no longer live.</strong><br><br>
+                    <p>Introudcing LuxuryDirect but for men. This is a dropshipping store that I built for a client on fiverr. They reached out to me because their
+                      previous store designer ripped them off. The store owner wanted a clothing store that seperates men and womens clothing in an organized fashion and i did just that 
+                    by using custom made sections.</p><br><strong>Customer Review</strong>
+                    <img src="./Assets/luxdirect.png" alt="project 7 customer review"/>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+    <section id="web-dev-projects">
+        <h2>Web Development Projects</h2>
+        <p>COMING SOON....</p>
+
+    </section>
+
+    <footer class="container">
+        <span class="blur"></span>
+        <span class="blur"></span>
+        <div class="column">
+            <div class="socials">
+                <a href="https://github.com/Wajdy-E" target="_blank"><i class="ri-github-line"></i></a>
+                <a href="https://www.linkedin.com/in/wajdy-elsobky-964122210/" target="_blank"><i class="ri-linkedin-line"></i></a>
+                <a href="mailto:welso040@uottawa.ca" target="_blank"><i class="ri-mail-line"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+
+document.getElementById('projects').addEventListener('click', function() {
+    document.getElementById('shopify-projects').scrollIntoView({ behavior: 'smooth' });
+});
+
+        const accordionButtons = document.querySelectorAll('.accordion-button');
+        const accordionCollapses = document.querySelectorAll('.accordion-collapse');
+
+        accordionButtons.forEach((button) => {
+            button.addEventListener('click', () => {
+            accordionCollapses.forEach((collapse) => {
+                if (collapse !== button.nextElementSibling) {
+                collapse.classList.remove('show');
+                }
+            });
+            });
+        });
+
+
+
+    </script>
+</body>
+
+</html>
