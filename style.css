@@ -373,7 +373,7 @@ section, header{
 
 .hidden-element{
     opacity: 0;
-    filter: blur(5px);
+    filter: blur(2px);
     transform: translateX(-100%);
     transition: all 1s;
 
