@@ -212,6 +212,9 @@ section .header {
   #accordion-section .accordion-item img {
     max-height: 900px;
   }
+    .accordion{
+    width: 90vw;
+  }
 }
 
 #web-dev-projects {
