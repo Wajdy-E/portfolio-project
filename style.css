@@ -365,12 +365,6 @@ footer .column > a:hover {
   }
 }
 
-section, header{
-    display: grid;
-    place-items: center;
-    align-content: center;
-}
-
 .hidden-element{
     opacity: 0;
     filter: blur(2px);
