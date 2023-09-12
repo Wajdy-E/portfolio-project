@@ -186,7 +186,6 @@ section .header{
     color: white;
     text-align: center;
     margin: 60px 0;
-    background: #0f0f17;
     padding: 20px;
     border-radius: 40px;
     box-shadow: 0 4px 8px rgba(12, 12, 46, 0.472);
