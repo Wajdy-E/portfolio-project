@@ -109,6 +109,26 @@ section .header{
     font-weight: 600;
 }
 
+.nav-link{
+    position: relative;
+}
+.nav-link::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 90%;
+    height: 2px;
+    background-color: blue; 
+    transform: scaleX(0);
+    transform-origin: left; 
+    transition: transform 0.3s ease; 
+}
+
+.nav-link:hover::before {
+    transform: scaleX(1); 
+}
+
 #about-me{
     display: flex;
     align-items: center;
