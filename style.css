@@ -206,6 +206,11 @@ section .header {
   .s-projects .accordion {
     display: none;
   }
+  #accordion-section{
+    display: grid;
+    place-items: center;
+    place-content: center;
+  }
   #accordion-section .accordion-item {
     margin: 20px;
   }
