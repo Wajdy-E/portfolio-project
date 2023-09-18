@@ -373,23 +373,18 @@ footer .column > a:hover {
   }
 }
 
-.hidden-element{
+/* .hidden-element{
     opacity: 0;
     filter: blur(2px);
     transform: translateX(-100%);
     transition: all 1s;
 
-}
+} */
 
-@media (prefers-reudced-motion) {
-    .hidden{
-        transition: none;
-    }
-    
-}
+/
 
-.show{
+/* .show{
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
-}
+} */
