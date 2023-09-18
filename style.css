@@ -124,7 +124,9 @@ section .header {
 }
 
 @media (max-width: 893px){
-  width: 30%;
+  .nav-link::before{
+    width: 30%;
+  }
 }
 
 #about-me {
