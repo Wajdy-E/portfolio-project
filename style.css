@@ -123,6 +123,10 @@ section .header {
   transform: scaleX(1);
 }
 
+@media (max-width: 893px){
+  width: 30%;
+}
+
 #about-me {
   display: flex;
   align-items: center;
