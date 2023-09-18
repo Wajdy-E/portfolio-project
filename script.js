@@ -10,7 +10,7 @@ const observer = new IntersectionObserver((entries) =>{
  });
 
  const hiddenEl = document.querySelectorAll('.hidden-element');
-/hiddenEl.forEach((el)=> observer.observe(el));
+hiddenEl.forEach((el)=> observer.observe(el));
 
 
 // document.getElementById("projects").addEventListener("click", function () {
