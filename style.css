@@ -123,8 +123,8 @@ section .header {
   transform: scaleX(1);
 }
 
-@media (max-width: 893px){
-  .nav-link::before{
+@media (max-width: 893px) {
+  .nav-link::before {
     width: 30%;
   }
 }
@@ -151,9 +151,6 @@ section .header {
     margin: 50px 0;
   }
 
-  .s-projects {
-    grid-template-columns: repeat(2, 1fr) !important;
-  }
 
   .skill {
     height: 56px !important;
@@ -179,53 +176,6 @@ section .header {
 
 #who-am-i {
   margin: 0 50px;
-}
-
-#shopify-projects {
-  color: white;
-  text-align: center;
-  margin: 60px 0;
-  padding: 20px;
-  border-radius: 40px;
-  box-shadow: 0 4px 8px rgba(12, 12, 46, 0.472);
-}
-
-.s-projects {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-}
-
-.s-projects .project1,
-.s-projects .project2,
-.s-projects .project3,
-.s-projects .project4 {
-  position: relative;
-}
-
-@media (min-width: 801px) {
-  #accordion-section {
-    display: none;
-  }
-}
-@media (max-width: 800px) {
-  .s-projects .accordion {
-    display: none;
-  }
-  #accordion-section{
-    display: grid;
-    place-items: center;
-    place-content: center;
-  }
-  #accordion-section .accordion-item {
-    margin: 20px;
-  }
-  #accordion-section .accordion-item img {
-    max-height: 900px;
-  }
-    .accordion{
-    width: 90vw;
-  }
 }
 
 #web-dev-projects {
@@ -276,13 +226,6 @@ footer .column > a {
 footer .column > a:hover {
   color: #1d4ed8;
 }
-
-/* .technical-skills{
-    display: grid;
-    grid-template-columns: repeat(8, 56px);
-    margin-bottom: 10px;
-    overflow-x: hidden;
-} */
 
 #technical-skills {
   display: flex;
@@ -379,17 +322,159 @@ footer .column > a:hover {
   }
 }
 
-/* .hidden-element{
-    opacity: 0;
-    filter: blur(2px);
-    transform: translateX(-100%);
-    transition: all 1s;
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
 
-} 
+.container {
+  height: auto;
+  min-height: 450px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.card {
+  width: 80px;
+  border-radius: 0.75rem;
+  background-size: cover;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 2rem;
+  margin: 0 10px;
+  display: flex;
+  align-items: flex-start;
+  transition: 0.6s cubic-bezier(0.28, -0.03, 0, 0.99);
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.8);
+  padding: 10px;
+
+}
+
+.card > .row {
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.card > .row > .icon {
+  background: #223;
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.card > .row > .description {
+  display: flex;
+  flex-direction: column;
+  min-height: 80px;
+  width: auto;
+  opacity: 0;
+  transform: translateY(30px);
+  transition-delay: 0.3s;
+  transition: all 0.3s ease;
+}
+
+.description p {
+  color: #b0b0ba;
+  padding-top: 5px;
+}
+
+.description h4 {
+  text-transform: uppercase;
+}
+.card .description a {
+  display: none;
+}
+
+.card.expanded .description a {
+  display: block;
+}
+
+input {
+  display: none;
+}
+
+input:checked + label {
+  min-width: 600px;
+}
+
+input:checked + label .description {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+.card[for="c1"] {
+  background-color: #18181b;
+  background-image: url("./Assets/optirenew.png");
+}
+.card[for="c2"] {
+  background-color: #18181b;
+  background-image: url("./Assets/myshoecharms.png");
+}
+.card[for="c3"] {
+  background-color: #18181b;
+  background-image: url("./Assets/yourvinylsource.png");
+}
+.card[for="c4"] {
+  background-color: #18181b;
+  background-image: url("./Assets/artoscapes.png");
+}
 
 
-.show{
-    opacity: 1;
-    filter: blur(0);
-    transform: translateX(0);
-}  */
+@media (max-width: 987px) {
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    height: auto; 
+  }
+
+  .card {
+    width: 90%; 
+    margin: 10px 0;
+    height: auto; 
+    transition: 0.6s cubic-bezier(0.28, -0.03, 0, 0.99), width 0.6s ease; 
+  }
+
+  input:checked + label {
+    min-width: 90vw;
+    height: 70vh;
+  }
+  .card.expanded .description {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+  }
+
+  .card.expanded > .row {
+    margin: 0 auto 10px auto;
+    width: 80vw;
+  }
+.card[for="c1"] > .row 
+.card.expanded[for="c1"],
+  .card.expanded[for="c2"],
+  .card.expanded[for="c3"],
+  .card.expanded[for="c4"] {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .card.expanded[for="c1"] {
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .card > .row > .icon{
+    display: none;
+  }
+
+
+}
