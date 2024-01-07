@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const shopifyOptions = {
     root: null,
-    threshold: 0.6
+    threshold: 0.3
   };
 
   const shopifyObserver = new IntersectionObserver(handleShopifyIntersection, shopifyOptions);
