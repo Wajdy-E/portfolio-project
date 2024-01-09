@@ -394,7 +394,7 @@ footer .column > a:hover {
   display: none;
 }
 
-.card.expanded .description a {
+.expanded .description a {
   display: block;
 }
 
