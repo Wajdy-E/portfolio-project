@@ -390,13 +390,6 @@ footer .column > a:hover {
 .description h4 {
   text-transform: uppercase;
 }
-.card .description a {
-  display: none;
-}
-
-.expanded .description a {
-  display: block;
-}
 
 input {
   display: none;
@@ -475,6 +468,12 @@ input:checked + label .description {
   .card > .row > .icon{
     display: none;
   }
+.card .description a {
+  display: none;
+}
 
+.expanded .description a {
+  display: block;
+}
 
 }
