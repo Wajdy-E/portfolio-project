@@ -151,7 +151,6 @@ section .header {
     margin: 50px 0;
   }
 
-
   .skill {
     height: 56px !important;
     width: 56px !important;
@@ -350,7 +349,6 @@ footer .column > a:hover {
   transition: 0.6s cubic-bezier(0.28, -0.03, 0, 0.99);
   box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.8);
   padding: 10px;
-
 }
 
 .card > .row {
@@ -406,35 +404,49 @@ input:checked + label .description {
 
 .card[for="c1"] {
   background-color: #18181b;
-  background-image: url("./Assets/optirenew.png");
+  background-image: url("./Assets/tryit1st.png");
 }
 .card[for="c2"] {
   background-color: #18181b;
-  background-image: url("./Assets/myshoecharms.png");
+  background-image: url("./Assets/whollyballs.png");
 }
 .card[for="c3"] {
   background-color: #18181b;
-  background-image: url("./Assets/yourvinylsource.png");
+  background-image: url("./Assets/maria.dk.png");
 }
 .card[for="c4"] {
   background-color: #18181b;
-  background-image: url("./Assets/herbalicious.online.png");
+  background-image: url("./Assets/mirellestudios.png");
 }
 
+.card[for="d1"] {
+  background-color: #18181b;
+  background-image: url("./Assets/freescribe.png");
+  background-position: center;
+}
+
+#d1 h4{
+  color: black !important;
+}
+
+.card[for="d2"] {
+  background-color: #18181b;
+  background-image: url("./Assets/getswole.png");
+  background-position: center;
+}
 
 @media (max-width: 987px) {
-
   .container {
     flex-direction: column;
     align-items: center;
-    height: auto; 
+    height: auto;
   }
 
   .card {
-    width: 90%; 
+    width: 90%;
     margin: 10px 0;
-    height: auto; 
-    transition: 0.6s cubic-bezier(0.28, -0.03, 0, 0.99), width 0.6s ease; 
+    height: auto;
+    transition: 0.6s cubic-bezier(0.28, -0.03, 0, 0.99), width 0.6s ease;
   }
 
   input:checked + label {
@@ -450,8 +462,7 @@ input:checked + label .description {
     margin: 0 auto 10px auto;
     width: 80vw;
   }
-.card[for="c1"] > .row 
-.card.expanded[for="c1"],
+  .card[for="c1"] > .row .card.expanded[for="c1"],
   .card.expanded[for="c2"],
   .card.expanded[for="c3"],
   .card.expanded[for="c4"] {
@@ -465,15 +476,14 @@ input:checked + label .description {
     background-position: center;
   }
 
-  .card > .row > .icon{
+  .card > .row > .icon {
     display: none;
   }
-.card .description a {
-  display: none;
-}
+  .card .description a {
+    display: none;
+  }
 
-.expanded .description a {
-  display: block;
-}
-
+  .expanded .description a {
+    display: block;
+  }
 }
